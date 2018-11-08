@@ -58,8 +58,8 @@ public class TheAthletesFootCheckoutTest extends TestBase {
         softAssert.assertEquals(ViewCart.getProductName(), expectedProductName);
         softAssert.assertEquals(ViewCart.getUnitPrice(), expectedUnitPrice);
         ViewCart.clickSecureCheckout();
-        /*softAssert.assertEquals(Checkout.getFirstName(), "william");
-        softAssert.assertEquals(Checkout.getLastName(), "jacob");*/
+        softAssert.assertEquals(Checkout.getFirstName(), "william");
+        softAssert.assertEquals(Checkout.getLastName(), "jacob");
         Checkout.clickContinueButton();
         softAssert.assertTrue(Checkout.isErrorMessagePresent(), "Error message displayed!");
         Checkout.enterStreetAddress("Barangaroo Avenue");
