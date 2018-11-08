@@ -6,7 +6,7 @@ public class WomensRun {
 
     public static WomensRunPage womensRunPage = new WomensRunPage();
 
-    public static void clickProductItem(){
-        womensRunPage.clickProductItem();
+    public static void clickProductItem(String itemName){
+        womensRunPage.clickProductItem(itemName);
     }
 }

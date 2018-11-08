@@ -5,9 +5,7 @@ import org.openqa.selenium.By;
 
 public class WomensRunPage extends PageBase {
 
-    private By lnkProductItem = By.xpath("//a[@class='product-item-link']");
-
-    public void clickProductItem(){
-        syscoLabUI.clickOnVisibleElement(lnkProductItem);
+    public void clickProductItem(String itemName){
+        syscoLabUI.clickOnVisibleElement(By.xpath("//a[contains(text(),'"+itemName+"')]"));
     }
 }

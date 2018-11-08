@@ -16,7 +16,7 @@ public class TheAthletesFootCheckoutTest extends TestBase {
 
     SoftAssert  softAssert= new SoftAssert();
 
-    @Test(enabled = false)
+    @Test()
     public void testTheAthletesFootInvalidLogin() throws Exception {
 
         Home.loadHomePage();
@@ -28,19 +28,7 @@ public class TheAthletesFootCheckoutTest extends TestBase {
         Home.quiteDriver();
     }
 
-    @Test(enabled = false)
-    public void testTheAthletesFootValidLogin() throws Exception {
-
-        Home.loadHomePage();
-        Home.clickLoginLink();
-        softAssert.assertTrue(Login.verifyLoginButton(),"Login button loaded");
-        Login.theAthletesFootLogin("williamjacob802@gmail.com","0okmNHY6");
-        softAssert.assertEquals(Home.accountUserName(),"WILLIAM JACOB");
-        softAssert.assertAll();
-        Home.quiteDriver();
-    }
-
-    @Test(priority = 1)
+    @Test()
     public void testTheAthletesFootCheckout() throws Exception{
         Home.loadHomePage();
         Home.clickLoginLink();
@@ -49,7 +37,7 @@ public class TheAthletesFootCheckoutTest extends TestBase {
         softAssert.assertEquals(Home.accountUserName(),"WILLIAM JACOB");
         ViewCart.removeCartItemsIfExists();
         Home.selectCategory("Womens","Run");
-        WomensRun.clickProductItem();
+        WomensRun.clickProductItem("SAUCONY GUIDE ISO WOMENS SLATE PEACH");
         String expectedProductName = RightPanel.getProductName();
         String expectedUnitPrice = RightPanel.getUnitPrice();
         RightPanel.selectSize("7");
@@ -58,8 +46,8 @@ public class TheAthletesFootCheckoutTest extends TestBase {
         softAssert.assertEquals(ViewCart.getProductName(), expectedProductName);
         softAssert.assertEquals(ViewCart.getUnitPrice(), expectedUnitPrice);
         ViewCart.clickSecureCheckout();
-        softAssert.assertEquals(Checkout.getFirstName(), "william");
-        softAssert.assertEquals(Checkout.getLastName(), "jacob");
+        /*softAssert.assertEquals(Checkout.getFirstName(), "william");
+        softAssert.assertEquals(Checkout.getLastName(), "jacob");*/
         Checkout.clickContinueButton();
         softAssert.assertTrue(Checkout.isErrorMessagePresent(), "Error message displayed!");
         Checkout.enterStreetAddress("Barangaroo Avenue");

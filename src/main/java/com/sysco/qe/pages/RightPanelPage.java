@@ -25,7 +25,7 @@ public class RightPanelPage extends PageBase {
     }
 
     public void clickProductSize(String size){
-        syscoLabUI.clickOnVisibleElement(By.xpath("(//div[@option-label='"+size+"'])[2]"));
+        syscoLabUI.clickOnVisibleElement(By.xpath("(//div[@option-label='"+size+"'])[3]"));
     }
 
     public void clickPlaceOrderButton(){
