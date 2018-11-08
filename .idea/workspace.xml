@@ -1,305 +1,1055 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ChangeListManager">
-    <list default="true" id="6dc2e3aa-1a7a-4768-ba35-1d6e6b4a73d7" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1515763873">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="2" />
-          <entry key="xml" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="2" />
-          <entry key="XML" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/sysco/qe/tests/TheAthletesFootCheckoutTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
+    <component name="ChangeListManager">
+        <list default="true" id="5ea3c008-9591-4973-b836-d7464df407a6" name="Default Changelist" comment="" />
+        <ignored path="$PROJECT_DIR$/out/" />
+        <ignored path="$PROJECT_DIR$/target/" />
+        <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+        <option name="SHOW_DIALOG" value="false" />
+        <option name="HIGHLIGHT_CONFLICTS" value="true" />
+        <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+        <option name="LAST_RESOLUTION" value="IGNORE" />
+    </component>
+    <component name="FUSProjectUsageTrigger">
+        <session id="1307487672">
+            <usages-collector id="statistics.lifecycle.project">
+                <counts>
+                    <entry key="project.closed" value="5" />
+                    <entry key="project.open.time.0" value="1" />
+                    <entry key="project.open.time.10" value="1" />
+                    <entry key="project.open.time.2" value="1" />
+                    <entry key="project.open.time.6" value="1" />
+                    <entry key="project.open.time.9" value="1" />
+                    <entry key="project.opened" value="5" />
+                </counts>
+            </usages-collector>
+            <usages-collector id="statistics.file.extensions.open">
+                <counts>
+                    <entry key="class" value="24" />
+                    <entry key="java" value="76" />
+                </counts>
+            </usages-collector>
+            <usages-collector id="statistics.file.types.open">
+                <counts>
+                    <entry key="CLASS" value="24" />
+                    <entry key="JAVA" value="76" />
+                </counts>
+            </usages-collector>
+            <usages-collector id="statistics.file.extensions.edit">
+                <counts>
+                    <entry key="class" value="7" />
+                    <entry key="dummy" value="33" />
+                    <entry key="java" value="9258" />
+                </counts>
+            </usages-collector>
+            <usages-collector id="statistics.file.types.edit">
+                <counts>
+                    <entry key="CLASS" value="7" />
+                    <entry key="JAVA" value="9258" />
+                    <entry key="PLAIN_TEXT" value="33" />
+                </counts>
+            </usages-collector>
+        </session>
+    </component>
+    <component name="FileEditorManager">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+            <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/pages/CheckoutPage.java">
+                    <provider selected="true" editor-type-id="text-editor">
+                        <state relative-caret-position="374">
+                            <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+                            <folding>
+                                <element signature="imports" expanded="true" />
+                            </folding>
+                        </state>
+                    </provider>
+                </entry>
+            </file>
+            <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/src/test/java/com/sysco/qe/tests/TheAthletesFootCheckoutTest.java">
+                    <provider selected="true" editor-type-id="text-editor">
+                        <state relative-caret-position="969">
+                            <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+                            <folding>
+                                <element signature="imports" expanded="true" />
+                            </folding>
+                        </state>
+                    </provider>
+                </entry>
+            </file>
+            <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/functions/ViewCart.java">
+                    <provider selected="true" editor-type-id="text-editor">
+                        <state relative-caret-position="459">
+                            <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+                            <folding>
+                                <element signature="imports" expanded="true" />
+                                <element signature="e#850#851#0" expanded="true" />
+                                <element signature="e#902#903#0" expanded="true" />
+                                <element signature="e#1041#1042#0" expanded="true" />
+                                <element signature="e#1091#1092#0" expanded="true" />
+                            </folding>
+                        </state>
+                    </provider>
+                </entry>
+            </file>
+            <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/functions/Checkout.java">
+                    <provider selected="true" editor-type-id="text-editor">
+                        <state relative-caret-position="255">
+                            <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+                            <folding>
+                                <element signature="e#205#206#0" expanded="true" />
+                                <element signature="e#255#256#0" expanded="true" />
+                                <element signature="e#392#393#0" expanded="true" />
+                                <element signature="e#439#440#0" expanded="true" />
+                                <element signature="e#491#492#0" expanded="true" />
+                                <element signature="e#550#551#0" expanded="true" />
+                                <element signature="e#779#780#0" expanded="true" />
+                                <element signature="e#837#838#0" expanded="true" />
+                                <element signature="e#903#904#0" expanded="true" />
+                                <element signature="e#965#966#0" expanded="true" />
+                            </folding>
+                        </state>
+                    </provider>
+                </entry>
+            </file>
+            <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/pages/PaymentPage.java">
+                    <provider selected="true" editor-type-id="text-editor">
+                        <state relative-caret-position="425">
+                            <caret line="25" selection-start-line="25" selection-end-line="25" />
+                            <folding>
+                                <element signature="imports" expanded="true" />
+                            </folding>
+                        </state>
+                    </provider>
+                </entry>
+            </file>
+            <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/pages/LoginPage.java">
+                    <provider selected="true" editor-type-id="text-editor">
+                        <state relative-caret-position="102">
+                            <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+                            <folding>
+                                <element signature="imports" expanded="true" />
+                            </folding>
+                        </state>
+                    </provider>
+                </entry>
+            </file>
+            <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/functions/RightPanel.java">
+                    <provider selected="true" editor-type-id="text-editor">
+                        <state relative-caret-position="408">
+                            <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+                            <folding>
+                                <element signature="e#215#216#0" expanded="true" />
+                                <element signature="e#268#269#0" expanded="true" />
+                                <element signature="e#317#318#0" expanded="true" />
+                                <element signature="e#370#371#0" expanded="true" />
+                                <element signature="e#414#415#0" expanded="true" />
+                                <element signature="e#468#469#0" expanded="true" />
+                                <element signature="e#510#511#0" expanded="true" />
+                                <element signature="e#565#566#0" expanded="true" />
+                            </folding>
+                        </state>
+                    </provider>
+                </entry>
+            </file>
+            <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/functions/Payment.java">
+                    <provider selected="true" editor-type-id="text-editor">
+                        <state relative-caret-position="374">
+                            <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+                        </state>
+                    </provider>
+                </entry>
+            </file>
+            <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/pages/RightPanelPage.java">
+                    <provider selected="true" editor-type-id="text-editor">
+                        <state relative-caret-position="323">
+                            <caret line="19" selection-start-line="19" selection-end-line="19" />
+                            <folding>
+                                <element signature="imports" expanded="true" />
+                                <element signature="e#678#679#0" expanded="true" />
+                            </folding>
+                        </state>
+                    </provider>
+                </entry>
+            </file>
+            <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/pages/ViewCartPage.java">
+                    <provider selected="true" editor-type-id="text-editor">
+                        <state relative-caret-position="493">
+                            <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+                            <folding>
+                                <element signature="imports" expanded="true" />
+                            </folding>
+                        </state>
+                    </provider>
+                </entry>
+            </file>
+        </leaf>
+    </component>
+    <component name="FileTemplateManagerImpl">
+        <option name="RECENT_TEMPLATES">
+            <list>
+                <option value="Class" />
+            </list>
+        </option>
+    </component>
+    <component name="FindInProjectRecents">
+        <findStrings>
+            <find>userName</find>
+            <find>password</find>
+            <find>txtGoogleSearch</find>
+            <find>No of items</find>
+            <find>syscoLabUIOgm</find>
+            <find>theAthletesFootLoginPage</find>
+            <find>theAthletesFootHomePage</find>
+            <find>productName</find>
+            <find>View Cart button is not cickable!!!</find>
+            <find>item name</find>
+            <find>chrome</find>
+        </findStrings>
+        <replaceStrings>
+            <replace>loginPage</replace>
+            <replace>homePage</replace>
+            <replace>lblProductName</replace>
+        </replaceStrings>
+    </component>
+    <component name="Git.Settings">
+        <option name="ROOT_SYNC" value="DONT_SYNC" />
+        <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    </component>
+    <component name="IdeDocumentHistory">
+        <option name="CHANGED_PATHS">
+            <list>
+                <option value="$PROJECT_DIR$/src/test/java/com/sysco/qe/tests/OnlineShoppingCheckoutTest.java" />
+                <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/common/Constants.java" />
+                <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/pages/TheAthletesFootLoginPage.java" />
+                <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/functions/TheAthletesFootLogin.java" />
+                <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/pages/CheckoutViewCartPage.java" />
+                <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/utils/PageBase.java" />
+                <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/utils/Log.java" />
+                <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/functions/TheAthletesFootViewCart.java" />
+                <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/pages/TheAthletesFootViewCartPage.java" />
+                <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/functions/TheAthletesFootHome.java" />
+                <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/pages/TheAthletesFootHomePage.java" />
+                <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/pages/TheAthletesFootBrooksWomensPage.java" />
+                <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/functions/TheAthletesFootBrooksWomens.java" />
+                <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/pages/TheAthletesFootRightPanelPage.java" />
+                <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/functions/TheAthletesFootRightPanel.java" />
+                <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/pages/LoginPage.java" />
+                <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/functions/Login.java" />
+                <option value="$PROJECT_DIR$/src/test/java/com/sysco/qe/tests/LoginTest.java" />
+                <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/functions/Checkout.java" />
+                <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/functions/BrooksWomens.java" />
+                <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/functions/ViewCart.java" />
+                <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/pages/BrooksWomensPage.java" />
+                <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/pages/KidsRunPage.java" />
+                <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/functions/KidsRun.java" />
+                <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/functions/Home.java" />
+                <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/pages/WomensRunPage.java" />
+                <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/functions/WomensRun.java" />
+                <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/pages/HomePage.java" />
+                <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/functions/RightPanel.java" />
+                <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/pages/CheckoutPage.java" />
+                <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/pages/PaymentPage.java" />
+                <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/pages/RightPanelPage.java" />
+                <option value="$PROJECT_DIR$/src/test/java/com/sysco/qe/tests/TheAthletesFootCheckoutTest.java" />
+                <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/pages/ViewCartPage.java" />
+                <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/functions/Payment.java" />
+            </list>
+        </option>
+    </component>
+    <component name="MavenProjectNavigator">
+        <treeState>
+            <expand />
+            <select />
+        </treeState>
+    </component>
+    <component name="ProjectFrameBounds" extendedState="6">
+        <option name="x" value="10" />
+        <option name="y" value="25" />
+        <option name="width" value="1575" />
+        <option name="height" value="775" />
+    </component>
+    <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+    <component name="ProjectView">
+        <navigator proportions="" version="1">
+            <autoscrollToSource ProjectPane="true" />
+            <autoscrollFromSource ProjectPane="true" />
+            <foldersAlwaysOnTop value="true" />
+        </navigator>
+        <panes>
+            <pane id="Scope" />
+            <pane id="PackagesPane" />
+            <pane id="ProjectPane">
+                <subPane>
+                    <expand>
+                        <path>
+                            <item name="syscoqe" type="b2602c69:ProjectViewProjectNode" />
+                            <item name="syscoqe" type="462c0819:PsiDirectoryNode" />
+                        </path>
+                        <path>
+                            <item name="syscoqe" type="b2602c69:ProjectViewProjectNode" />
+                            <item name="syscoqe" type="462c0819:PsiDirectoryNode" />
+                            <item name="src" type="462c0819:PsiDirectoryNode" />
+                        </path>
+                        <path>
+                            <item name="syscoqe" type="b2602c69:ProjectViewProjectNode" />
+                            <item name="syscoqe" type="462c0819:PsiDirectoryNode" />
+                            <item name="src" type="462c0819:PsiDirectoryNode" />
+                            <item name="main" type="462c0819:PsiDirectoryNode" />
+                        </path>
+                        <path>
+                            <item name="syscoqe" type="b2602c69:ProjectViewProjectNode" />
+                            <item name="syscoqe" type="462c0819:PsiDirectoryNode" />
+                            <item name="src" type="462c0819:PsiDirectoryNode" />
+                            <item name="main" type="462c0819:PsiDirectoryNode" />
+                            <item name="java" type="462c0819:PsiDirectoryNode" />
+                        </path>
+                        <path>
+                            <item name="syscoqe" type="b2602c69:ProjectViewProjectNode" />
+                            <item name="syscoqe" type="462c0819:PsiDirectoryNode" />
+                            <item name="src" type="462c0819:PsiDirectoryNode" />
+                            <item name="main" type="462c0819:PsiDirectoryNode" />
+                            <item name="java" type="462c0819:PsiDirectoryNode" />
+                            <item name="qe" type="462c0819:PsiDirectoryNode" />
+                        </path>
+                        <path>
+                            <item name="syscoqe" type="b2602c69:ProjectViewProjectNode" />
+                            <item name="syscoqe" type="462c0819:PsiDirectoryNode" />
+                            <item name="src" type="462c0819:PsiDirectoryNode" />
+                            <item name="main" type="462c0819:PsiDirectoryNode" />
+                            <item name="java" type="462c0819:PsiDirectoryNode" />
+                            <item name="qe" type="462c0819:PsiDirectoryNode" />
+                            <item name="functions" type="462c0819:PsiDirectoryNode" />
+                        </path>
+                        <path>
+                            <item name="syscoqe" type="b2602c69:ProjectViewProjectNode" />
+                            <item name="syscoqe" type="462c0819:PsiDirectoryNode" />
+                            <item name="src" type="462c0819:PsiDirectoryNode" />
+                            <item name="main" type="462c0819:PsiDirectoryNode" />
+                            <item name="java" type="462c0819:PsiDirectoryNode" />
+                            <item name="qe" type="462c0819:PsiDirectoryNode" />
+                            <item name="pages" type="462c0819:PsiDirectoryNode" />
+                        </path>
+                        <path>
+                            <item name="syscoqe" type="b2602c69:ProjectViewProjectNode" />
+                            <item name="syscoqe" type="462c0819:PsiDirectoryNode" />
+                            <item name="src" type="462c0819:PsiDirectoryNode" />
+                            <item name="main" type="462c0819:PsiDirectoryNode" />
+                            <item name="java" type="462c0819:PsiDirectoryNode" />
+                            <item name="qe" type="462c0819:PsiDirectoryNode" />
+                            <item name="utils" type="462c0819:PsiDirectoryNode" />
+                        </path>
+                        <path>
+                            <item name="syscoqe" type="b2602c69:ProjectViewProjectNode" />
+                            <item name="syscoqe" type="462c0819:PsiDirectoryNode" />
+                            <item name="src" type="462c0819:PsiDirectoryNode" />
+                            <item name="test" type="462c0819:PsiDirectoryNode" />
+                        </path>
+                        <path>
+                            <item name="syscoqe" type="b2602c69:ProjectViewProjectNode" />
+                            <item name="syscoqe" type="462c0819:PsiDirectoryNode" />
+                            <item name="src" type="462c0819:PsiDirectoryNode" />
+                            <item name="test" type="462c0819:PsiDirectoryNode" />
+                            <item name="java" type="462c0819:PsiDirectoryNode" />
+                        </path>
+                        <path>
+                            <item name="syscoqe" type="b2602c69:ProjectViewProjectNode" />
+                            <item name="syscoqe" type="462c0819:PsiDirectoryNode" />
+                            <item name="src" type="462c0819:PsiDirectoryNode" />
+                            <item name="test" type="462c0819:PsiDirectoryNode" />
+                            <item name="java" type="462c0819:PsiDirectoryNode" />
+                            <item name="qe" type="462c0819:PsiDirectoryNode" />
+                        </path>
+                        <path>
+                            <item name="syscoqe" type="b2602c69:ProjectViewProjectNode" />
+                            <item name="syscoqe" type="462c0819:PsiDirectoryNode" />
+                            <item name="src" type="462c0819:PsiDirectoryNode" />
+                            <item name="test" type="462c0819:PsiDirectoryNode" />
+                            <item name="java" type="462c0819:PsiDirectoryNode" />
+                            <item name="qe" type="462c0819:PsiDirectoryNode" />
+                            <item name="tests" type="462c0819:PsiDirectoryNode" />
+                        </path>
+                        <path>
+                            <item name="syscoqe" type="b2602c69:ProjectViewProjectNode" />
+                            <item name="syscoqe" type="462c0819:PsiDirectoryNode" />
+                            <item name="src" type="462c0819:PsiDirectoryNode" />
+                            <item name="test" type="462c0819:PsiDirectoryNode" />
+                            <item name="java" type="462c0819:PsiDirectoryNode" />
+                            <item name="qe" type="462c0819:PsiDirectoryNode" />
+                            <item name="utils" type="462c0819:PsiDirectoryNode" />
+                        </path>
+                        <path>
+                            <item name="syscoqe" type="b2602c69:ProjectViewProjectNode" />
+                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+                        </path>
+                        <path>
+                            <item name="syscoqe" type="b2602c69:ProjectViewProjectNode" />
+                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+                            <item name="Maven: com.google.guava:guava:21.0" type="70bed36:NamedLibraryElementNode" />
+                        </path>
+                        <path>
+                            <item name="syscoqe" type="b2602c69:ProjectViewProjectNode" />
+                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+                            <item name="Maven: com.google.guava:guava:21.0" type="70bed36:NamedLibraryElementNode" />
+                            <item name="guava-21.0.jar" type="462c0819:PsiDirectoryNode" />
+                        </path>
+                        <path>
+                            <item name="syscoqe" type="b2602c69:ProjectViewProjectNode" />
+                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+                            <item name="Maven: com.google.guava:guava:21.0" type="70bed36:NamedLibraryElementNode" />
+                            <item name="guava-21.0.jar" type="462c0819:PsiDirectoryNode" />
+                            <item name="google" type="462c0819:PsiDirectoryNode" />
+                        </path>
+                        <path>
+                            <item name="syscoqe" type="b2602c69:ProjectViewProjectNode" />
+                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+                            <item name="Maven: com.google.guava:guava:21.0" type="70bed36:NamedLibraryElementNode" />
+                            <item name="guava-21.0.jar" type="462c0819:PsiDirectoryNode" />
+                            <item name="google" type="462c0819:PsiDirectoryNode" />
+                            <item name="common" type="462c0819:PsiDirectoryNode" />
+                        </path>
+                        <path>
+                            <item name="syscoqe" type="b2602c69:ProjectViewProjectNode" />
+                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+                            <item name="Maven: com.google.guava:guava:21.0" type="70bed36:NamedLibraryElementNode" />
+                            <item name="guava-21.0.jar" type="462c0819:PsiDirectoryNode" />
+                            <item name="google" type="462c0819:PsiDirectoryNode" />
+                            <item name="common" type="462c0819:PsiDirectoryNode" />
+                            <item name="collect" type="462c0819:PsiDirectoryNode" />
+                        </path>
+                        <path>
+                            <item name="syscoqe" type="b2602c69:ProjectViewProjectNode" />
+                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+                            <item name="Maven: com.sysco.qe:qe_core:0.0.2" type="70bed36:NamedLibraryElementNode" />
+                        </path>
+                        <path>
+                            <item name="syscoqe" type="b2602c69:ProjectViewProjectNode" />
+                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+                            <item name="Maven: com.sysco.qe:qe_core:0.0.2" type="70bed36:NamedLibraryElementNode" />
+                            <item name="qe_core-0.0.2.jar" type="462c0819:PsiDirectoryNode" />
+                        </path>
+                        <path>
+                            <item name="syscoqe" type="b2602c69:ProjectViewProjectNode" />
+                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+                            <item name="Maven: com.sysco.qe:qe_core:0.0.2" type="70bed36:NamedLibraryElementNode" />
+                            <item name="qe_core-0.0.2.jar" type="462c0819:PsiDirectoryNode" />
+                            <item name="core" type="462c0819:PsiDirectoryNode" />
+                        </path>
+                        <path>
+                            <item name="syscoqe" type="b2602c69:ProjectViewProjectNode" />
+                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+                            <item name="Maven: com.sysco.qe:qe_core:0.0.2" type="70bed36:NamedLibraryElementNode" />
+                            <item name="qe_core-0.0.2.jar" type="462c0819:PsiDirectoryNode" />
+                            <item name="core" type="462c0819:PsiDirectoryNode" />
+                            <item name="ui" type="462c0819:PsiDirectoryNode" />
+                        </path>
+                        <path>
+                            <item name="syscoqe" type="b2602c69:ProjectViewProjectNode" />
+                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+                            <item name="Maven: org.seleniumhq.selenium:selenium-api:3.4.0" type="70bed36:NamedLibraryElementNode" />
+                        </path>
+                        <path>
+                            <item name="syscoqe" type="b2602c69:ProjectViewProjectNode" />
+                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+                            <item name="Maven: org.seleniumhq.selenium:selenium-api:3.4.0" type="70bed36:NamedLibraryElementNode" />
+                            <item name="selenium-api-3.4.0.jar" type="462c0819:PsiDirectoryNode" />
+                        </path>
+                        <path>
+                            <item name="syscoqe" type="b2602c69:ProjectViewProjectNode" />
+                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+                            <item name="Maven: org.seleniumhq.selenium:selenium-api:3.4.0" type="70bed36:NamedLibraryElementNode" />
+                            <item name="selenium-api-3.4.0.jar" type="462c0819:PsiDirectoryNode" />
+                            <item name="selenium" type="462c0819:PsiDirectoryNode" />
+                        </path>
+                        <path>
+                            <item name="syscoqe" type="b2602c69:ProjectViewProjectNode" />
+                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+                            <item name="Maven: org.seleniumhq.selenium:selenium-remote-driver:3.4.0" type="70bed36:NamedLibraryElementNode" />
+                        </path>
+                        <path>
+                            <item name="syscoqe" type="b2602c69:ProjectViewProjectNode" />
+                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+                            <item name="Maven: org.seleniumhq.selenium:selenium-remote-driver:3.4.0" type="70bed36:NamedLibraryElementNode" />
+                            <item name="selenium-remote-driver-3.4.0.jar" type="462c0819:PsiDirectoryNode" />
+                        </path>
+                        <path>
+                            <item name="syscoqe" type="b2602c69:ProjectViewProjectNode" />
+                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+                            <item name="Maven: org.seleniumhq.selenium:selenium-remote-driver:3.4.0" type="70bed36:NamedLibraryElementNode" />
+                            <item name="selenium-remote-driver-3.4.0.jar" type="462c0819:PsiDirectoryNode" />
+                            <item name="selenium" type="462c0819:PsiDirectoryNode" />
+                        </path>
+                        <path>
+                            <item name="syscoqe" type="b2602c69:ProjectViewProjectNode" />
+                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+                            <item name="Maven: org.seleniumhq.selenium:selenium-remote-driver:3.4.0" type="70bed36:NamedLibraryElementNode" />
+                            <item name="selenium-remote-driver-3.4.0.jar" type="462c0819:PsiDirectoryNode" />
+                            <item name="selenium" type="462c0819:PsiDirectoryNode" />
+                            <item name="remote" type="462c0819:PsiDirectoryNode" />
+                        </path>
+                        <path>
+                            <item name="syscoqe" type="b2602c69:ProjectViewProjectNode" />
+                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+                            <item name="Maven: org.testng:testng:6.9.10" type="70bed36:NamedLibraryElementNode" />
+                        </path>
+                        <path>
+                            <item name="syscoqe" type="b2602c69:ProjectViewProjectNode" />
+                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+                            <item name="Maven: org.testng:testng:6.9.10" type="70bed36:NamedLibraryElementNode" />
+                            <item name="testng-6.9.10.jar" type="462c0819:PsiDirectoryNode" />
+                        </path>
+                        <path>
+                            <item name="syscoqe" type="b2602c69:ProjectViewProjectNode" />
+                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+                            <item name="Maven: org.testng:testng:6.9.10" type="70bed36:NamedLibraryElementNode" />
+                            <item name="testng-6.9.10.jar" type="462c0819:PsiDirectoryNode" />
+                            <item name="testng" type="462c0819:PsiDirectoryNode" />
+                        </path>
+                        <path>
+                            <item name="syscoqe" type="b2602c69:ProjectViewProjectNode" />
+                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+                            <item name="Maven: org.testng:testng:6.9.10" type="70bed36:NamedLibraryElementNode" />
+                            <item name="testng-6.9.10.jar" type="462c0819:PsiDirectoryNode" />
+                            <item name="testng" type="462c0819:PsiDirectoryNode" />
+                        </path>
+                        <path>
+                            <item name="syscoqe" type="b2602c69:ProjectViewProjectNode" />
+                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+                            <item name="Maven: org.testng:testng:6.9.10" type="70bed36:NamedLibraryElementNode" />
+                            <item name="testng-6.9.10.jar" type="462c0819:PsiDirectoryNode" />
+                            <item name="testng" type="462c0819:PsiDirectoryNode" />
+                            <item name="internal" type="462c0819:PsiDirectoryNode" />
+                        </path>
+                    </expand>
+                    <select />
+                </subPane>
+            </pane>
+        </panes>
+    </component>
+    <component name="PropertiesComponent">
+        <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541670523619" />
+        <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+        <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    </component>
+    <component name="RunDashboard">
+        <option name="ruleStates">
+            <list>
+                <RuleState>
+                    <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+                </RuleState>
+                <RuleState>
+                    <option name="name" value="StatusDashboardGroupingRule" />
+                </RuleState>
+            </list>
+        </option>
+    </component>
+    <component name="RunManager" selected="TestNG.TheAthletesFootCheckoutTest.testTheAthletesFootCheckout">
+        <configuration name="LoginTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+            <module name="syscoqe" />
+            <extension name="coverage">
+                <pattern>
+                    <option name="PATTERN" value="com.sysco.qe.tests.*" />
+                    <option name="ENABLED" value="true" />
+                </pattern>
+            </extension>
+            <option name="PACKAGE_NAME" value="com.sysco.qe.tests" />
+            <option name="MAIN_CLASS_NAME" value="com.sysco.qe.tests.LoginTest" />
+            <properties />
+            <listeners />
+            <method v="2">
+                <option name="Make" enabled="true" />
+            </method>
+        </configuration>
+        <configuration name="TheAthletesFootCheckoutTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+            <module name="syscoqe" />
+            <extension name="coverage">
+                <pattern>
+                    <option name="PATTERN" value="com.sysco.qe.tests.*" />
+                    <option name="ENABLED" value="true" />
+                </pattern>
+            </extension>
+            <option name="PACKAGE_NAME" value="com.sysco.qe.tests" />
+            <option name="MAIN_CLASS_NAME" value="com.sysco.qe.tests.TheAthletesFootCheckoutTest" />
+            <properties />
+            <listeners />
+            <method v="2">
+                <option name="Make" enabled="true" />
+            </method>
+        </configuration>
+        <configuration name="TheAthletesFootCheckoutTest.testTheAthletesFootCheckout" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+            <module name="syscoqe" />
+            <extension name="coverage">
+                <pattern>
+                    <option name="PATTERN" value="com.sysco.qe.tests.*" />
+                    <option name="ENABLED" value="true" />
+                </pattern>
+            </extension>
+            <option name="PACKAGE_NAME" value="com.sysco.qe.tests" />
+            <option name="MAIN_CLASS_NAME" value="com.sysco.qe.tests.TheAthletesFootCheckoutTest" />
+            <option name="METHOD_NAME" value="testTheAthletesFootCheckout" />
+            <option name="TEST_OBJECT" value="METHOD" />
+            <properties />
+            <listeners />
+            <method v="2">
+                <option name="Make" enabled="true" />
+            </method>
+        </configuration>
+        <list>
+            <item itemvalue="TestNG.LoginTest" />
+            <item itemvalue="TestNG.TheAthletesFootCheckoutTest" />
+            <item itemvalue="TestNG.TheAthletesFootCheckoutTest.testTheAthletesFootCheckout" />
+        </list>
+        <recent_temporary>
+            <list>
+                <item itemvalue="TestNG.TheAthletesFootCheckoutTest.testTheAthletesFootCheckout" />
+                <item itemvalue="TestNG.TheAthletesFootCheckoutTest" />
+                <item itemvalue="TestNG.LoginTest" />
+            </list>
+        </recent_temporary>
+    </component>
+    <component name="SvnConfiguration">
+        <configuration />
+    </component>
+    <component name="TaskManager">
+        <task active="true" id="Default" summary="Default task">
+            <changelist id="5ea3c008-9591-4973-b836-d7464df407a6" name="Default Changelist" comment="" />
+            <created>1540443337720</created>
+            <option name="number" value="Default" />
+            <option name="presentableId" value="Default" />
+            <updated>1540443337720</updated>
+        </task>
+        <servers />
+    </component>
+    <component name="TestHistory">
+        <history-entry file="TheAthletesFootCheckoutTest_testTheAthletesFootCheckout - 2018.11.05 at 14h 24m 34s.xml">
+            <configuration name="TheAthletesFootCheckoutTest.testTheAthletesFootCheckout" configurationId="TestNG" />
+        </history-entry>
+        <history-entry file="TheAthletesFootCheckoutTest_testTheAthletesFootCheckout - 2018.11.05 at 14h 41m 05s.xml">
+            <configuration name="TheAthletesFootCheckoutTest.testTheAthletesFootCheckout" configurationId="TestNG" />
+        </history-entry>
+        <history-entry file="TheAthletesFootCheckoutTest_testTheAthletesFootCheckout - 2018.11.05 at 14h 47m 35s.xml">
+            <configuration name="TheAthletesFootCheckoutTest.testTheAthletesFootCheckout" configurationId="TestNG" />
+        </history-entry>
+        <history-entry file="TheAthletesFootCheckoutTest_testTheAthletesFootCheckout - 2018.11.05 at 15h 03m 39s.xml">
+            <configuration name="TheAthletesFootCheckoutTest.testTheAthletesFootCheckout" configurationId="TestNG" />
+        </history-entry>
+        <history-entry file="TheAthletesFootCheckoutTest_testTheAthletesFootCheckout - 2018.11.05 at 15h 10m 54s.xml">
+            <configuration name="TheAthletesFootCheckoutTest.testTheAthletesFootCheckout" configurationId="TestNG" />
+        </history-entry>
+        <history-entry file="TheAthletesFootCheckoutTest_testTheAthletesFootCheckout - 2018.11.05 at 15h 13m 38s.xml">
+            <configuration name="TheAthletesFootCheckoutTest.testTheAthletesFootCheckout" configurationId="TestNG" />
+        </history-entry>
+        <history-entry file="TheAthletesFootCheckoutTest_testTheAthletesFootCheckout - 2018.11.05 at 15h 27m 47s.xml">
+            <configuration name="TheAthletesFootCheckoutTest.testTheAthletesFootCheckout" configurationId="TestNG" />
+        </history-entry>
+        <history-entry file="TheAthletesFootCheckoutTest_testTheAthletesFootCheckout - 2018.11.05 at 15h 55m 24s.xml">
+            <configuration name="TheAthletesFootCheckoutTest.testTheAthletesFootCheckout" configurationId="TestNG" />
+        </history-entry>
+        <history-entry file="TheAthletesFootCheckoutTest_testTheAthletesFootCheckout - 2018.11.05 at 16h 04m 52s.xml">
+            <configuration name="TheAthletesFootCheckoutTest.testTheAthletesFootCheckout" configurationId="TestNG" />
+        </history-entry>
+        <history-entry file="TheAthletesFootCheckoutTest_testTheAthletesFootCheckout - 2018.11.06 at 09h 11m 57s.xml">
+            <configuration name="TheAthletesFootCheckoutTest.testTheAthletesFootCheckout" configurationId="TestNG" />
+        </history-entry>
+    </component>
+    <component name="TodoView">
+        <todo-panel id="selected-file">
+            <is-autoscroll-to-source value="true" />
+        </todo-panel>
+        <todo-panel id="all">
+            <are-packages-shown value="true" />
+            <is-autoscroll-to-source value="true" />
+        </todo-panel>
+    </component>
+    <component name="ToolWindowManager">
+        <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+        <editor active="true" />
+        <layout>
+            <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49926794" visible="true" weight="0.2657718" />
+            <window_info id="Structure" order="1" sideWeight="0.50073206" side_tool="true" weight="0.24966443" />
+            <window_info id="Image Layers" order="2" />
+            <window_info id="Designer" order="3" />
+            <window_info id="UI Designer" order="4" />
+            <window_info id="Capture Tool" order="5" />
+            <window_info id="Favorites" order="6" side_tool="true" />
+            <window_info anchor="bottom" id="Message" order="0" />
+            <window_info anchor="bottom" id="Find" order="1" weight="0.329429" />
+            <window_info anchor="bottom" id="Run" order="2" weight="0.81551975" />
+            <window_info anchor="bottom" id="Debug" order="3" weight="0.39970717" />
+            <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+            <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+            <window_info anchor="bottom" id="TODO" order="6" weight="0.329429" />
+            <window_info anchor="bottom" id="Terminal" order="7" />
+            <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.329429" />
+            <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" weight="0.329429" />
+            <window_info anchor="bottom" id="Messages" order="10" weight="0.32796487" />
+            <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+            <window_info anchor="right" id="Maven Projects" order="1" weight="0.3295302" />
+            <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+            <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+            <window_info anchor="right" id="Palette" order="4" />
+            <window_info anchor="right" id="Capture Analysis" order="5" />
+            <window_info anchor="right" id="Theme Preview" order="6" />
+            <window_info anchor="right" id="Palette&#9;" order="7" />
+        </layout>
+    </component>
+    <component name="VcsContentAnnotationSettings">
+        <option name="myLimit" value="2678400000" />
+    </component>
+    <component name="XDebuggerManager">
+        <breakpoint-manager>
+            <breakpoints>
+                <line-breakpoint enabled="true" type="java-line">
+                    <url>file://$PROJECT_DIR$/src/main/java/com/sysco/qe/pages/ViewCartPage.java</url>
+                    <line>19</line>
+                    <properties />
+                    <option name="timeStamp" value="1" />
+                </line-breakpoint>
+            </breakpoints>
+        </breakpoint-manager>
+    </component>
+    <component name="editorHistoryManager">
         <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-            </state>
-          </provider>
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-2031" />
+            </provider>
         </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.9.10/testng-6.9.10.jar!/org/testng/IAttributes.class">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="136">
+                    <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/utils/ExcelUtil.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="170">
+                    <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/data/LoginData.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                    <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/common/Constants.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="136">
+                    <caret line="8" column="107" selection-start-line="8" selection-start-column="107" selection-end-line="8" selection-end-column="107" />
+                </state>
+            </provider>
+        </entry>
+        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.9.10/testng-6.9.10.jar!/org/testng/ITestContext.class">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="85">
+                    <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+                </state>
+            </provider>
+        </entry>
+        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.9.10/testng-6.9.10.jar!/org/testng/internal/Invoker.class">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="127">
+                    <caret line="56" column="485" selection-start-line="56" selection-start-column="485" selection-end-line="56" selection-end-column="485" />
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sysco/qe/utils/TestBase.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="187">
+                    <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/utils/Log.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="153">
+                    <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/utils/PageBase.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="306">
+                    <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+                    <folding>
+                        <element signature="imports" expanded="true" />
+                    </folding>
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sysco/qe/tests/LoginTest.java" />
+        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.4.0/selenium-api-3.4.0.jar!/org/openqa/selenium/WebElement.class">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="119">
+                    <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+                </state>
+            </provider>
+        </entry>
+        <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/21.0/guava-21.0.jar!/com/google/common/collect/AbstractMapEntry.class">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="153">
+                    <caret line="15" selection-start-line="15" selection-end-line="15" />
+                </state>
+            </provider>
+        </entry>
+        <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/21.0/guava-21.0.jar!/com/google/common/collect/ImmutableEntry.class">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="289">
+                    <caret line="22" selection-start-line="22" selection-end-line="22" />
+                </state>
+            </provider>
+        </entry>
+        <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/21.0/guava-21.0.jar!/com/google/common/collect/CollectPreconditions.class">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="289">
+                    <caret line="22" selection-start-line="22" selection-end-line="22" />
+                </state>
+            </provider>
+        </entry>
+        <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/21.0/guava-21.0.jar!/com/google/common/collect/ImmutableMapEntry.class">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="221">
+                    <caret line="19" selection-start-line="19" selection-end-line="19" />
+                </state>
+            </provider>
+        </entry>
+        <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/21.0/guava-21.0.jar!/com/google/common/collect/ImmutableMap.class">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="110">
+                    <caret line="68" selection-start-line="68" selection-end-line="68" />
+                </state>
+            </provider>
+        </entry>
+        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.4.0/selenium-api-3.4.0.jar!/org/openqa/selenium/By.class">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="110">
+                    <caret line="182" selection-start-line="182" selection-end-line="182" />
+                </state>
+            </provider>
+        </entry>
+        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.4.0/selenium-remote-driver-3.4.0.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="110">
+                    <caret line="329" selection-start-line="329" selection-end-line="329" />
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/pages/BrooksWomensPage.java" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/functions/BrooksWomens.java" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/functions/Login.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                    <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+                    <folding>
+                        <element signature="e#589#590#0" expanded="true" />
+                        <element signature="e#644#645#0" expanded="true" />
+                    </folding>
+                </state>
+            </provider>
+        </entry>
+        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.4.0/selenium-remote-driver-3.4.0.jar!/org/openqa/selenium/remote/BrowserType.class">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                    <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+                </state>
+            </provider>
+        </entry>
+        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.4.0/selenium-remote-driver-3.4.0.jar!/org/openqa/selenium/remote/DesiredCapabilities.class">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="227">
+                    <caret line="174" column="46" selection-start-line="174" selection-start-column="40" selection-end-line="174" selection-end-column="46" />
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/functions/WomensRun.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="153">
+                    <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+                    <folding>
+                        <element signature="e#202#203#0" expanded="true" />
+                        <element signature="e#248#249#0" expanded="true" />
+                    </folding>
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/utils/DriverSetUpUtil.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="25">
+                    <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/pages/HomePage.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="799">
+                    <caret line="58" selection-start-line="58" selection-end-line="58" />
+                    <folding>
+                        <element signature="imports" expanded="true" />
+                    </folding>
+                </state>
+            </provider>
+        </entry>
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/functions/Home.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-            </state>
-          </provider>
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="612">
+                    <caret line="44" column="27" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
+                    <folding>
+                        <element signature="imports" expanded="true" />
+                        <element signature="e#788#789#0" expanded="true" />
+                        <element signature="e#825#826#0" expanded="true" />
+                        <element signature="e#954#955#0" expanded="true" />
+                        <element signature="e#1006#1007#0" expanded="true" />
+                        <element signature="e#1219#1220#0" expanded="true" />
+                        <element signature="e#1262#1263#0" expanded="true" />
+                    </folding>
+                </state>
+            </provider>
         </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/sysco/qe/tests/TheAthletesFootCheckoutTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/functions/Home.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="25" />
-    <option name="width" value="1575" />
-    <option name="height" value="775" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="UIAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UIAutomation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UIAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UIAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UIAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UIAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UIAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UIAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UIAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UIAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UIAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UIAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sysco" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UIAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UIAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sysco" type="462c0819:PsiDirectoryNode" />
-              <item name="qe" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UIAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UIAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sysco" type="462c0819:PsiDirectoryNode" />
-              <item name="qe" type="462c0819:PsiDirectoryNode" />
-              <item name="functions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UIAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UIAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UIAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UIAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UIAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UIAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UIAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UIAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sysco" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UIAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UIAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sysco" type="462c0819:PsiDirectoryNode" />
-              <item name="qe" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UIAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UIAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sysco" type="462c0819:PsiDirectoryNode" />
-              <item name="qe" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="worksp&#9;FILE&#9;file://D:/Project/UIAutomation/.idea/workspace.xml" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541670654402" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/syscoqe" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="6dc2e3aa-1a7a-4768-ba35-1d6e6b4a73d7" name="Default Changelist" comment="" />
-      <created>1541667812872</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1541667812872</updated>
-    </task>
-    <servers />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24228188" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" weight="0.329429" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/functions/Home.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sysco/qe/tests/TheAthletesFootCheckoutTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-  </component>
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/pages/WomensRunPage.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="119">
+                    <caret line="7" column="73" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="73" />
+                    <folding>
+                        <element signature="imports" expanded="true" />
+                    </folding>
+                </state>
+            </provider>
+        </entry>
+        <entry file="jar://$MAVEN_REPOSITORY$/com/sysco/qe/qe_core/0.0.2/qe_core-0.0.2.jar!/com/syscolab/qe/core/ui/SyscoLabUI.class">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="201">
+                    <caret line="408" column="16" selection-start-line="408" selection-start-column="16" selection-end-line="408" selection-end-column="16" />
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/pages/CheckoutPage.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="374">
+                    <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+                    <folding>
+                        <element signature="imports" expanded="true" />
+                    </folding>
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sysco/qe/tests/TheAthletesFootCheckoutTest.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="969">
+                    <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+                    <folding>
+                        <element signature="imports" expanded="true" />
+                    </folding>
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/functions/ViewCart.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="459">
+                    <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+                    <folding>
+                        <element signature="imports" expanded="true" />
+                        <element signature="e#850#851#0" expanded="true" />
+                        <element signature="e#902#903#0" expanded="true" />
+                        <element signature="e#1041#1042#0" expanded="true" />
+                        <element signature="e#1091#1092#0" expanded="true" />
+                    </folding>
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/functions/Checkout.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                    <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+                    <folding>
+                        <element signature="e#205#206#0" expanded="true" />
+                        <element signature="e#255#256#0" expanded="true" />
+                        <element signature="e#392#393#0" expanded="true" />
+                        <element signature="e#439#440#0" expanded="true" />
+                        <element signature="e#491#492#0" expanded="true" />
+                        <element signature="e#550#551#0" expanded="true" />
+                        <element signature="e#779#780#0" expanded="true" />
+                        <element signature="e#837#838#0" expanded="true" />
+                        <element signature="e#903#904#0" expanded="true" />
+                        <element signature="e#965#966#0" expanded="true" />
+                    </folding>
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/pages/PaymentPage.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="425">
+                    <caret line="25" selection-start-line="25" selection-end-line="25" />
+                    <folding>
+                        <element signature="imports" expanded="true" />
+                    </folding>
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/pages/LoginPage.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                    <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+                    <folding>
+                        <element signature="imports" expanded="true" />
+                    </folding>
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/functions/RightPanel.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="408">
+                    <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+                    <folding>
+                        <element signature="e#215#216#0" expanded="true" />
+                        <element signature="e#268#269#0" expanded="true" />
+                        <element signature="e#317#318#0" expanded="true" />
+                        <element signature="e#370#371#0" expanded="true" />
+                        <element signature="e#414#415#0" expanded="true" />
+                        <element signature="e#468#469#0" expanded="true" />
+                        <element signature="e#510#511#0" expanded="true" />
+                        <element signature="e#565#566#0" expanded="true" />
+                    </folding>
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/pages/RightPanelPage.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="323">
+                    <caret line="19" selection-start-line="19" selection-end-line="19" />
+                    <folding>
+                        <element signature="imports" expanded="true" />
+                        <element signature="e#678#679#0" expanded="true" />
+                    </folding>
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/pages/ViewCartPage.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="493">
+                    <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+                    <folding>
+                        <element signature="imports" expanded="true" />
+                    </folding>
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/functions/Payment.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="374">
+                    <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+                </state>
+            </provider>
+        </entry>
+    </component>
 </project>
