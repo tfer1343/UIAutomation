@@ -5,7 +5,7 @@
     <groupId>com.sysco.qe</groupId>
     <artifactId>sysco.qe</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <repositories>
+    <!--<repositories>
         <repository>
             <id>qe.sysco.repo.core</id>
             <name>qe_core</name>
@@ -13,6 +13,19 @@
             <releases>
             </releases>
             <snapshots>
+            </snapshots>
+        </repository>
+    </repositories>-->
+    <repositories>
+        <repository>
+            <id>qe.syscolab.repo.core</id>
+            <name>qe_core</name>
+            <url>http://qcenter.cake.net:8081/repository/qe.syscolab.repo.core/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
             </snapshots>
         </repository>
     </repositories>
@@ -24,10 +37,15 @@
             <version>1.0</version>
         </dependency>
 
-        <dependency>
+        <!--<dependency>
             <groupId>com.sysco.qe</groupId>
             <artifactId>qe_core</artifactId>
             <version>0.0.2</version>
+        </dependency>-->
+        <dependency>
+            <groupId>com.syscolab.qe</groupId>
+            <artifactId>qe-core</artifactId>
+            <version>0.2.3</version>
         </dependency>
         <dependency>
             <groupId>commons-lang</groupId>

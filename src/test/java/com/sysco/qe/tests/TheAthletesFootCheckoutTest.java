@@ -11,12 +11,12 @@ public class TheAthletesFootCheckoutTest extends TestBase {
 
     @BeforeClass
     public void init(ITestContext iTestContext) {
-        iTestContext.setAttribute("feature", "Login - ValidLogin");
+        iTestContext.setAttribute("feature", "Online Shopping - Checkout");
     }
 
     SoftAssert  softAssert= new SoftAssert();
 
-    @Test()
+    @Test(priority = 1)
     public void testTheAthletesFootInvalidLogin() throws Exception {
 
         Home.loadHomePage();
@@ -28,7 +28,7 @@ public class TheAthletesFootCheckoutTest extends TestBase {
         Home.quiteDriver();
     }
 
-    @Test()
+    @Test(priority = 2)
     public void testTheAthletesFootCheckout() throws Exception{
         Home.loadHomePage();
         Home.clickLoginLink();
