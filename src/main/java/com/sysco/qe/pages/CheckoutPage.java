@@ -15,11 +15,11 @@ public class CheckoutPage extends PageBase {
 
     public String getFirstName(){
         syscoLabUI.waitTillElementLoaded(txtFirstName, 3000);
-        return syscoLabUI.getAttribute(txtFirstName, "aria-describedby");
+        return syscoLabUI.getValue(txtFirstName).trim();
     }
 
     public String getLastName(){
-        return syscoLabUI.getText(txtLastName);
+        return syscoLabUI.getValue(txtLastName);
     }
 
     public void clickContinueBtn(){

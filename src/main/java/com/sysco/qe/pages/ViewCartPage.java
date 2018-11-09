@@ -12,7 +12,6 @@ public class ViewCartPage extends PageBase {
     private By lblProductName = By.xpath("//div[@class='item-details']/strong/a");
     private By lblUnitPrice = By.xpath("//td[@class='col price']/span/span/span");
     private By btnSecureCheckout = By.xpath("//button[@title='Proceed to Checkout']");
-    private By lnkProductItem = By.xpath("//a[@class='product-item-link']");
     int i=1;
 
     public void removeCartItems(){
