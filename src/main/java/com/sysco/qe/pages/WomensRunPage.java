@@ -5,7 +5,8 @@ import org.openqa.selenium.By;
 
 public class WomensRunPage extends PageBase {
 
+    private String lnkProductItemName = "//a[contains(text(),'ITEM')]";
     public void clickProductItem(String itemName){
-        syscoLabUI.clickOnVisibleElement(By.xpath("//a[contains(text(),'"+itemName+"')]"));
+        syscoLabUI.clickOnVisibleElement(By.xpath(lnkProductItemName.replace("ITEM", itemName)));
     }
 }

@@ -9,6 +9,7 @@ public class RightPanelPage extends PageBase {
     private By lblProductPrice = By.xpath("//span[@class='price']");
     private By btnAddToCart = By.id("product-addtocart-button");
     private By btnPlaceOrder = By.xpath("//button[text()='Place Order']");
+    private String lblSize = "//div[@class='swatch-row -active']/div[text()='SIZE']";
 
     public String getProductName(){
         syscoLabUI.waitTillElementLoaded(lblProductName, 6000);
@@ -25,7 +26,7 @@ public class RightPanelPage extends PageBase {
     }
 
     public void clickProductSize(String size){
-        syscoLabUI.clickOnVisibleElement(By.xpath("(//div[@option-label='"+size+"'])[3]"));
+        syscoLabUI.clickOnVisibleElement(By.xpath(lblSize.replace("SIZE", size)));
     }
 
     public void clickPlaceOrderButton(){

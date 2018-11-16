@@ -1,5 +1,6 @@
 package com.sysco.qe.functions;
 
+import com.sysco.qe.data.HomeData;
 import com.sysco.qe.pages.HomePage;
 import com.sysco.qe.pages.ViewCartPage;
 import com.sysco.qe.utils.Log;
@@ -10,9 +11,9 @@ public class ViewCart {
     public static HomePage homePage = new HomePage();
 
     public static void removeCartItemsIfExists(){
-        if(homePage.checkCartItemsExists().equalsIgnoreCase("counter qty empty")){
+        if(homePage.checkCartItemsExists().equalsIgnoreCase(HomeData.emptyMiniCartClassName)){
             Log.logInfo("Cart is empty!");
-        }else if(homePage.checkCartItemsExists().equalsIgnoreCase("counter qty")){
+        }else if(homePage.checkCartItemsExists().equalsIgnoreCase(HomeData.miniCartClassName)){
             homePage.clickCartIcon();
             homePage.clickViewCartBtn();
             viewCartPage.removeCartItems();

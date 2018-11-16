@@ -5,17 +5,7 @@
     <groupId>com.sysco.qe</groupId>
     <artifactId>sysco.qe</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <!--<repositories>
-        <repository>
-            <id>qe.sysco.repo.core</id>
-            <name>qe_core</name>
-            <url>http://10.168.135.194:8081/repository/sqe_repo</url>
-            <releases>
-            </releases>
-            <snapshots>
-            </snapshots>
-        </repository>
-    </repositories>-->
+
     <repositories>
         <repository>
             <id>qe.syscolab.repo.core</id>
@@ -37,11 +27,6 @@
             <version>1.0</version>
         </dependency>
 
-        <!--<dependency>
-            <groupId>com.sysco.qe</groupId>
-            <artifactId>qe_core</artifactId>
-            <version>0.0.2</version>
-        </dependency>-->
         <dependency>
             <groupId>com.syscolab.qe</groupId>
             <artifactId>qe-core</artifactId>

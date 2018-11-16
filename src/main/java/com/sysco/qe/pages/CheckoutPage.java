@@ -11,7 +11,8 @@ public class CheckoutPage extends PageBase {
     private By btnContinue = By.xpath("//button[text()='Continue']");
     private By txtPostCode = By.xpath("(//span[text()='Post Code']/../..)[1]/div/input");
     private By txtPhoneNumber = By.xpath("(//span[text()='Phone Number']/../..)[1]/div/input");
-    private By txtAddressLine1 = By.xpath("(//span[text()='Street Address Line 1']/../..)[1]/div/input");
+    private By txtAddressLine1 = By.xpath("//span[text()='Street Address Line 1']//following::input");
+    private String txtState = "//a[contains(text(),'STATE')]";
 
     public String getFirstName(){
         syscoLabUI.waitTillElementLoaded(txtFirstName, 3000);
@@ -28,21 +29,18 @@ public class CheckoutPage extends PageBase {
     }
 
     public boolean isErrorMessagePresent(){
-        if(syscoLabUI.isDisplayed(lblErrorMessage)==true){
-            return true;
-        }else{
-            return false;
-        }
+        return syscoLabUI.isDisplayed(lblErrorMessage);
     }
 
     public void enterPostCode(String postCode){
         syscoLabUI.clear(txtPostCode);
+        syscoLabUI.waitTillElementLoaded(txtPostCode);
         syscoLabUI.sendKeys(txtPostCode, postCode);
-        syscoLabUI.sleepInMiliSeconds(4000);
     }
 
     public void selectPostCode(String state){
-        syscoLabUI.clickOnVisibleElement(By.xpath("//a[contains(text(),'"+state+"')]"));
+        syscoLabUI.waitTillElementLoaded(By.xpath(txtState.replace("STATE", state)), 5000);
+        syscoLabUI.clickOnVisibleElement(By.xpath(txtState.replace("STATE", state)));
     }
 
     public void enterPhoneNumber(String phoneNumber){

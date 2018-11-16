@@ -8,11 +8,11 @@ public class PaymentPage extends PageBase {
     private By txtCardNumber = By.id("credit-card-number");
     private By txtMonth = By.id("expiration-month");
     private By txtYear = By.id("expiration-year");
-    private By lblErrorMsgCC = By.xpath("//span[text()='Card Number']/../../../div/div[2]/span");
-    private By lblErrorMsgMonth = By.xpath("//div[@id='braintree_expirationMonth']/../div[2]/span");
-    private By lblErrorMsgYear = By.xpath("//div[@id='braintree_expirationYear']/../div[2]/span");
+    private By lblErrorMsgCC = By.xpath("//*[text()='Card Number']//following::span");
+    private By lblErrorMsgMonth = By.xpath("//div[@id='braintree_expirationMonth']//following::span[1]");
+    private By lblErrorMsgYear = By.xpath("//div[@id='braintree_expirationYear']//following::span[1]");
     private By lblCreditCard = By.xpath("//strong[text()='Credit Card']");
-    private By lblCardNumber = By.xpath("//span[text()='Card Number']/../../..");
+    private By lblCardNumber = By.xpath("//span[text()='Card Number']");
     private By iframeCardNo = By.id("braintree-hosted-field-number");
     private By iframeExpirationMonth = By.id("braintree-hosted-field-expirationMonth");
     private By iframeExpirationYear = By.id("braintree-hosted-field-expirationYear");

@@ -9,7 +9,7 @@ public class LoginPage extends PageBase {
     private By txtEmail = By.id("email");
     private By txtPassword = By.id("pass");
     private By btnLogin = By.id("send2");
-    private By lblErrorMessage = By.xpath("//strong[text()='Join MyFit Rewards']/../../../../../../../div[2]/div/div/div/div");
+    private By lblErrorMessage = By.xpath("//div[@class='message-error error message']/div");
 
     public WebElement loadLoginButton(){
         syscoLabUI.waitTillElementLoaded(btnLogin, 3000);

@@ -13,7 +13,7 @@ public class Login {
             return false;
         }
     }
-    public static void theAthletesFootLogin(String username, String password){
+    public static void loginToAthletestFoot(String username, String password){
         loginPage.enterUsername(username);
         loginPage.enterPassword(password);
         loginPage.clickLoginButton();

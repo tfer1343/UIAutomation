@@ -1,21 +1,17 @@
 package com.sysco.qe.pages;
-
-import com.sysco.qe.utils.Log;
 import com.sysco.qe.utils.PageBase;
-import com.syscolab.qe.core.ui.SyscoLabUI;
-import com.syscolab.qe.core.ui.web.SyscoLabWUI;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Capabilities;
 
 public class HomePage extends PageBase {
 
     private By lnkLogin = By.xpath("//a[text()='Login']");
     private By lblAccountUserName = By.xpath("//a[text()='My account']/../../li[2]/span/span");
     private By lblMiniCart = By.xpath("//div[@class='minicart-wrapper']");
-    private By lnkViewCart = By.xpath("//span[text()='View Cart']/../..");
+    private By lnkViewCart = By.xpath("//div[@class='minicart-bottom']/div/a");
     private By lblMiniCartItemCount = By.xpath("//div[@class='minicart-wrapper']/span/span");
     private By lnkProductItem = By.xpath("(//a[@class='product-item-link'])[5]");
-    private By lnkHomePage = By.xpath("//strong[@class='slogan']");
+    private String lnkCategoryName = "//a[text()='CATEGORY']";
+    private String lnkSubCategoryName = "//a[@title='CATEGORY']/following::a[text()='SUBCATEGORY']";
 
     public void waitForLoginLink(){
         syscoLabUI.waitTillElementLoaded(lnkLogin, 3000);
@@ -41,26 +37,14 @@ public class HomePage extends PageBase {
     }
 
     public String checkCartItemsExists(){
-        String counterQtyAttribute = syscoLabUI.getAttribute(lblMiniCartItemCount, "class");
-        return counterQtyAttribute;
+        return syscoLabUI.getAttribute(lblMiniCartItemCount, "class");
     }
 
     public void clickCategory(String categoryName){
-        syscoLabUI.click(By.xpath("//a[text()='"+categoryName+"']"));
+        syscoLabUI.click(By.xpath(lnkCategoryName.replace("CATEGORY", categoryName)));
     }
 
-    public void clickSubCategory(String subCategoryName){
-        syscoLabUI.click(By.xpath("(//a[text()='"+subCategoryName+"'])[1]"));
-    }
-
-    public void clickProductItem(){
-        syscoLabUI.scrollToElement(lnkProductItem);
-        syscoLabUI.click(lnkProductItem);
-    }
-
-    public void goToHomePage(){
-        if(!syscoLabUI.getCurrentURL().equalsIgnoreCase("https://www.theathletesfoot.com.au/")){
-            syscoLabUI.clickOnVisibleElement(lnkHomePage);
-        }
+    public void clickSubCategory(String categoryName, String subCategoryName){
+        syscoLabUI.click(By.xpath((lnkSubCategoryName.replaceFirst("CATEGORY", categoryName)).replace("SUBCATEGORY", subCategoryName)));
     }
 }

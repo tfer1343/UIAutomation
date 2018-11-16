@@ -38,14 +38,6 @@ public class Home {
 
     public static void selectCategory(String parentMenu, String subMenu){
         homePage.clickCategory(parentMenu);
-        homePage.clickSubCategory(subMenu);
-    }
-
-    public static void clickProductItem(){
-        homePage.clickProductItem();
-    }
-
-    public static void goToHomePage(){
-        homePage.goToHomePage();
+        homePage.clickSubCategory(parentMenu, subMenu);
     }
 }

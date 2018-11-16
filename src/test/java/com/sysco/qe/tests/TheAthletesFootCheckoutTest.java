@@ -1,5 +1,6 @@
 package com.sysco.qe.tests;
 
+import com.sysco.qe.data.*;
 import com.sysco.qe.functions.*;
 import com.sysco.qe.utils.TestBase;
 import org.testng.ITestContext;
@@ -22,8 +23,8 @@ public class TheAthletesFootCheckoutTest extends TestBase {
         Home.loadHomePage();
         Home.clickLoginLink();
         softAssert.assertTrue(Login.verifyLoginButton(),"Login button loaded");
-        Login.theAthletesFootLogin("williamjacob802@gmail.com","12345678");
-        softAssert.assertEquals(Login.loginErrorMessage(), "YOU DID NOT SIGN IN CORRECTLY OR YOUR ACCOUNT IS TEMPORARILY DISABLED.");
+        Login.loginToAthletestFoot(LoginData.username,LoginData.invalidPassword);
+        softAssert.assertEquals(Login.loginErrorMessage(), LoginData.loginErrorMessage);
         softAssert.assertAll();
         Home.quiteDriver();
     }
@@ -33,11 +34,11 @@ public class TheAthletesFootCheckoutTest extends TestBase {
         Home.loadHomePage();
         Home.clickLoginLink();
         softAssert.assertTrue(Login.verifyLoginButton(),"Login button loaded");
-        Login.theAthletesFootLogin("williamjacob802@gmail.com","0okmNHY6");
-        softAssert.assertEquals(Home.accountUserName(),"WILLIAM JACOB");
+        Login.loginToAthletestFoot(LoginData.username,LoginData.validPassword);
+        softAssert.assertEquals(Home.accountUserName(), HomeData.expectedAccountUsername);
         ViewCart.removeCartItemsIfExists();
-        Home.selectCategory("Womens","Run");
-        WomensRun.clickProductItem("SAUCONY GUIDE ISO WOMENS SLATE PEACH");
+        Home.selectCategory(HomeData.parentMenuName,HomeData.subMenuName);
+        WomensRun.clickProductItem(CategoryData.itemName);
         String expectedProductName = RightPanel.getProductName();
         String expectedUnitPrice = RightPanel.getUnitPrice();
         RightPanel.selectSize("7");
@@ -46,20 +47,20 @@ public class TheAthletesFootCheckoutTest extends TestBase {
         softAssert.assertEquals(ViewCart.getProductName(), expectedProductName);
         softAssert.assertEquals(ViewCart.getUnitPrice(), expectedUnitPrice);
         ViewCart.clickSecureCheckout();
-        softAssert.assertEquals(Checkout.getFirstName(), "william");
-        softAssert.assertEquals(Checkout.getLastName(), "jacob");
+        softAssert.assertEquals(Checkout.getFirstName(), CheckoutData.expectedFirstName);
+        softAssert.assertEquals(Checkout.getLastName(), CheckoutData.expectedLastName);
         Checkout.clickContinueButton();
         softAssert.assertTrue(Checkout.isErrorMessagePresent(), "Error message displayed!");
-        Checkout.enterStreetAddress("Barangaroo Avenue");
-        Checkout.selectPostCode("2000", "BARANGAROO New South Wales");
-        Checkout.enterPhoneNumber("112345678");
+        Checkout.enterStreetAddress(CheckoutData.streetAddress);
+        Checkout.selectPostCode(CheckoutData.postCode, CheckoutData.state);
+        Checkout.enterPhoneNumber(CheckoutData.phoneNumber);
         Checkout.clickContinueButton();
         Payment.clickCreditCardRadioBtn();
-        Payment.enterCreditCardDetails("555555555555444", "10", "2018");
+        Payment.enterCreditCardDetails(PaymentData.creditCardNumber, PaymentData.expiryMonth, PaymentData.expiryYear);
         RightPanel.clickPlaceOrder();
-        softAssert.assertEquals(Payment.getErrorMessageCC(), "PLEASE, ENTER VALID CREDIT CARD NUMBER");
-        softAssert.assertEquals(Payment.getErrorMessageMonth(), "PLEASE, ENTER VALID EXPIRATION DATE");
-        softAssert.assertEquals(Payment.getErrorMessageYear(), "PLEASE, ENTER VALID EXPIRATION DATE");
+        softAssert.assertEquals(Payment.getErrorMessageCC(), PaymentData.expectedErrorMessageCC);
+        softAssert.assertEquals(Payment.getErrorMessageMonth(), PaymentData.expectedErrorMessageMonth);
+        softAssert.assertEquals(Payment.getErrorMessageYear(), PaymentData.expectedErrorMessageYear);
         softAssert.assertAll();
         Home.quiteDriver();
     }
